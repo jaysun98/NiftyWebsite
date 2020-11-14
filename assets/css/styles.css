@@ -1,0 +1,305 @@
+@media (max-width: 600px) {
+  #biggun {
+    height: inherit;
+    z-index: 1;
+    /*filter: blur(3px);*/
+    object-fit: cover;
+    position: relative;
+    max-height: 50vh;
+    right: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  #biggun {
+    height: inherit;
+    z-index: 1;
+    /*filter: blur(3px);*/
+    object-fit: cover;
+    position: relative;
+    max-height: 100vh;
+    right: 0;
+  }
+}
+
+.title {
+  z-index: 2;
+  color: #0C00FE;
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 48px;
+  margin-top: 5vh;
+}
+
+.large-body {
+  font-family: montserrat;
+  color: #232323;
+  font-weight: 400;
+  z-index: 2;
+  margin-top: 5vh;
+  position: relative;
+  font-size: 24px;
+}
+
+.d-flex.justify-content-center.biggun-img {
+  overflow: hidden;
+  z-index: 1;
+  height: 100vh;
+}
+
+.fa.fa-arrow-down {
+  position: relative;
+  z-index: 4;
+  color: #0C00FE;
+  padding-left: 8px;
+  font-size: 36px;
+}
+
+.shadow-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.h3, h3 {
+  font-size: 1.75rem;
+  color: #0C00FE;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+p {
+  margin-top: 0;
+  font-family: montserrat;
+}
+
+.links {
+  color: #0C00FE;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 1vh;
+}
+
+.fa.fa-arrow-right {
+  padding-left: 8px;
+}
+
+.h2, h2 {
+  font-size: 2rem;
+  color: #0C00FE;
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 36px;
+  font-family: montserrat;
+  font-weight: 600;
+  margin-bottom: 5vh;
+}
+
+.h4, h4 {
+  font-size: 24px;
+  color: #0C00FE;
+  font-weight: 400;
+  font-family: montserrat;
+  /*margin-top: 2vh;*/
+  margin-bottom: 6vh;
+}
+
+.text-center.number {
+  font-size: 36px;
+  margin-bottom: -8px;
+}
+
+.offer-img-div {
+  overflow: hidden;
+  height: 26vh;
+  width: inherit;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: relative;
+}
+
+.offer-image {
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.shadow-thing {
+  border-radius: 16px;
+  box-shadow: 0px 0px 8px #bfbfbf;
+  margin-bottom: 2vh;
+}
+
+.consulting-div {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+}
+
+.testimonial {
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 8px #bfbfbf;
+  margin: 16px;
+}
+
+.hello {
+}
+
+.testimonial-div {
+  width: inherit;
+  overflow: hidden;
+  height: inherit;
+  border-radius: 8px;
+}
+
+.testimonial-image {
+  object-fit: cover;
+  width: inherit;
+  height: 50vh;
+  position: relative;
+  object-fit: cover;
+  object-position: 0% 20%;
+}
+
+@media (max-width: 899px) {
+  .faq-div {
+    margin: 2vw;
+    margin-bottom: 10vh;
+    /*max-width: 600px;*/
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 900px) {
+  .faq-div {
+    margin: 2vw;
+    margin-bottom: 10vh;
+    /*max-width: 600px;*/
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+.worked-with {
+  width: inherit;
+}
+
+.worked-with-a {
+  height: 70px;
+}
+
+.col.a-col {
+  text-align: center;
+}
+
+section-div {
+  margin-top: 6vh;
+}
+
+.method {
+  margin: 16px;
+}
+
+.point-score {
+  margin: 16px;
+}
+
+.jsun {
+  width: 100px;
+}
+
+.form-control.input {
+  width: 250px;
+  margin: 8px;
+}
+
+.form-form {
+}
+
+.form-group {
+  text-align: left;
+  margin-top: 5vh;
+  margin: 16px;
+  margin-top: 5vh;
+}
+
+.submit-form {
+  margin: 8px;
+  background-color: #0C00FE;
+  border: none;
+}
+
+.points {
+  /*margin-top: 2vh;*/
+  max-width: 400px;
+}
+
+.navbar-light .navbar-brand {
+  max-height: 50px;
+}
+
+@media (max-width: 600px) {
+  .spacing {
+    margin-top: 15vh;
+  }
+}
+
+@media (min-width: 600px) {
+  .spacing {
+    margin-top: 30vh;
+  }
+}
+
+.method-desc {
+  max-width: 400px;
+}
+
+@media (min-width: 300px) {
+  .text-center.what-is {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+@media (max-width: 300px) {
+  .text-center.what-is {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .front {
+    margin-top: 20vh;
+  }
+}
+
+#blue-nav {
+  background-color: #0c00fe;
+  border-radius: 32px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+  background-color: transparent;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.benefit-block {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+}
+
+#what-is-pretotyping {
+  font-size: 24px;
+}
+
