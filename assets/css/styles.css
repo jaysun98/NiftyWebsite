@@ -240,13 +240,13 @@ section-div {
 
 @media (max-width: 600px) {
   .spacing {
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
 }
 
 @media (min-width: 600px) {
   .spacing {
-    margin-top: 30vh;
+    margin-top: 20vh;
   }
 }
 
